@@ -50,8 +50,10 @@ cd profile_image_app
 3. Get dependencies:
    ```bash
    flutter pub get
+   ```
 4. Run the app:
    ```bash
    flutter run
+   ```
 
 
