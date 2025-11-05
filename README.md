@@ -42,7 +42,7 @@ This project does **not use Firebase** — everything is saved locally on the de
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/profile_image_app.git
+   git clone https://github.com/rojinvgeo/profile_image_app.git
 2. Navigate into the project directory:
 ```bash
 cd profile_image_app
