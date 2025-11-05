@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "501734247875",
+    "project_id": "profileimageapp",
+    "storage_bucket": "profileimageapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501734247875:android:58a0131397524ee1de0176",
+        "android_client_info": {
+          "package_name": "com.example.profile_image_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOlYR0xQgGT9K7b0IMKGQ8hnhoALeHtH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
