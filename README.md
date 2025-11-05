@@ -1,16 +1,57 @@
-# profile_image_app
+# Profile Image App
 
-A new Flutter project.
+A simple Flutter application to **pick, upload, and display a profile image locally**.  
+This project does **not use Firebase** — everything is saved locally on the device for offline access.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠️ Features
 
-A few resources to get you started if this is your first Flutter project:
+- Pick an image from the device gallery
+- Upload (save) the image locally
+- Display the uploaded image in a **rounded avatar**
+- Shows **success/error messages** on upload
+- Saves image permanently using `SharedPreferences` and `path_provider`
+- Fully **offline** functionality
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📚 What I Learned
+
+- Handling **image picking** in Flutter using `image_picker`
+- Saving and reading files **locally** with `path_provider`
+- Persistent storage using `SharedPreferences`
+- Managing **state** in a simple Flutter app
+- Displaying **SnackBar messages** for user feedback
+- Building **centered and responsive UI** with `CircleAvatar` and buttons
+
+---
+
+## 💻 Tech Stack
+
+- **Flutter** & **Dart**
+- Packages:
+  - `image_picker`
+  - `path_provider`
+  - `shared_preferences`
+- No backend or Firebase needed (local storage only)
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/profile_image_app.git
+2. Navigate into the project directory:
+```bash
+cd profile_image_app
+```
+3. Get dependencies:
+   ```bash
+   flutter pub get
+4. Run the app:
+   ```bash
+   flutter run
+
+
